@@ -73,17 +73,17 @@ params:
 
     repositories:
 
-      - name: ChatBot
+      - name: DevOps-ChatBot
         repo: codefuse-ai/codefuse-chatbot
         icon: "<i class='icon icon-book'></i>"
         description: The repository of the project
 
-      - name: Eval
+      - name: DevOps-Eval
         repo: codefuse-ai/codefuse-devops-eval
         icon: "<i class='icon icon-book'></i>"
         description: The repository of the website
 
-      - name: Model
+      - name: DevOps-Model
         repo: codefuse-ai/CodeFuse-DevOps-Model
         icon: "<i class='icon icon-book'></i>"
         description: The repository of the project
