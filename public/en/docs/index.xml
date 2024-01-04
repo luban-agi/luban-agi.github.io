@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on CodeFuse-DevOps-Series</title>
+    <link>/en/docs/</link>
+    <description>Recent content in Docs on CodeFuse-DevOps-Series</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/en/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Page 02</title>
+      <link>/en/docs/page02/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/en/docs/page02/</guid>
+      <description>hello world dsadas&#xA;dsadsa</description>
+    </item>
+    <item>
+      <title>Configurations</title>
+      <link>/en/docs/configurations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/docs/configurations/</guid>
+      <description>theme: docura enableGitInfo: true markup: highlight: noClasses: false goldmark: renderer: unsafe: true services: googleAnalytics: ID: G-xxxxxxxxxx defaultContentLanguage: en languages: en: languageName: English languageCode: en-US contentDir: content/en title: Your Site Name description: Your Site Description weight: 1 params: author: name: Your Name url: https://your.site themeColors: light: &amp;#39;#ffffff&amp;#39; dark: &amp;#39;#121212&amp;#39; years: start: &amp;#39;&amp;#39; present: 2023 social: github: &amp;#39;&amp;#39; youtube: &amp;#39;&amp;#39; facebook: &amp;#39;&amp;#39; x: &amp;#39;&amp;#39; ads: googleAdSense: &amp;#39;&amp;#39; donate: buyMeACoffee: &amp;#39;&amp;#39; githubSponsor: &amp;#39;&amp;#39; algolia: en: container: &amp;#39;#site-header-search&amp;#39; appId: &amp;#39;&amp;#39; indexName: &amp;#39;&amp;#39; apiKey: &amp;#39;&amp;#39; home: repository: &amp;#39;your/repo&amp;#39; # repositories: # - name: Website # repo: org/site # icon: &amp;#34;&amp;lt;i class=&amp;#39;icon icon-book&amp;#39;&amp;gt;&amp;lt;/i&amp;gt;&amp;#34; # description: The repository of the website # # - name: Code # repo: org/project # icon: &amp;#34;&amp;lt;i class=&amp;#39;icon icon-book&amp;#39;&amp;gt;&amp;lt;/i&amp;gt;&amp;#34; # description: The repository of the project menu: main: - url: / name: Home identifier: home pre: &amp;#34;&amp;lt;i class=&amp;#39;icon icon-home&amp;#39;&amp;gt;&amp;lt;/i&amp;gt;&amp;#34; weight: 1 - url: /docs name: Documentation identifier: docs pre: &amp;#34;&amp;lt;i class=&amp;#39;icon icon-book&amp;#39;&amp;gt;&amp;lt;/i&amp;gt;&amp;#34; weight: 2 </description>
+    </item>
+    <item>
+      <title>First Documentation</title>
+      <link>/en/docs/first-documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/docs/first-documentation/</guid>
+      <description>🌈 Menu, sidebar &amp;amp; content pages ⭐ In here, we use /docs as the path of our first documentation.&#xA;The Menu Docura comes with a default documentation menu item in hugo.yaml. However, you can change these configs as per your needs.&#xA;- url: /docs name: Documentation identifier: docs pre: &amp;#34;&amp;lt;i class=&amp;#39;icon icon-book&amp;#39;&amp;gt;&amp;lt;/i&amp;gt;&amp;#34; weight: 2 The Sidebar To generate the sidebar, we use Hugo data templates. Create a new file data/en/docs/sidebar.yml with the following content.</description>
+    </item>
+    <item>
+      <title>Installation</title>
+      <link>/en/docs/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/docs/installation/</guid>
+      <description>🐣 With a new Hugo project Install Hugo extended version.&#xA;Use prebuilt binaries via https://github.com/gohugoio/hugo/releases/latest Verify the installation via hugo version Create a new site with the Docura theme.&#xA;hugo new site newsite cd newsite git init git submodule add https://github.com/docura/docura.git themes/docura rm hugo.toml &amp;amp;&amp;amp; cp themes/docura/hugo.yaml . hugo server </description>
+    </item>
+    <item>
+      <title>Overview</title>
+      <link>/en/docs/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/docs/overview/</guid>
+      <description>🚀 Features Responsive and adaptive layouts. Built-in dark, light and night themes. Customizable menu with Hugo configs. Customizable sidebars using Hugo data templates. Support for multiple documentation sets. Minimal reliance on external frameworks (No CSS, JS/npm, icon, font frameworks). SCSS/Vanilla JS based UI components and Hugo pipes based building process. 🌱 Inspiration Docura is highly inspired from the navy theme of Hexo docs. To support multiple documentation sets within a single site.</description>
+    </item>
+    <item>
+      <title>Page 01</title>
+      <link>/en/docs/page01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/docs/page01/</guid>
+      <description>world ewqesadsas</description>
+    </item>
+    <item>
+      <title>Sample page</title>
+      <link>/en/docs/sample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/docs/sample/</guid>
+      <description>🕊 Heading Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    <item>
+      <title>Showcase</title>
+      <link>/en/docs/showcase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/docs/showcase/</guid>
+      <description>🔹 Learning Rust 🧑‍💻codebase&#xA;🔹 Learning Cloud Native Go 🧑‍💻codebase</description>
+    </item>
+  </channel>
+</rss>

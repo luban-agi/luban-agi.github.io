@@ -1,0 +1,116 @@
+theme: docura
+
+enableGitInfo: false
+
+showSidebar: true
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+services:
+  googleAnalytics:
+    ID: G-xxxx
+
+defaultContentLanguage: zh
+languages:
+  en:
+    languageName: English
+    languageCode: en-US
+    contentDir: content/en
+    title: CodeFuse-DevOps-Series
+    description: An intelligent assistant serving the entire software development lifecycle, powered by a Multi-Agent Framework, working with DevOps Toolkits, Code&Doc Repo RAG, etc.
+    weight: 1
+
+  zh:
+    languageName: Chinese
+    languageCode: en-ZH
+    contentDir: content/zh
+    title: CodeFuse-DevOps-Series
+    description: DevOps-ChatBot是由蚂蚁CodeFuse团队开发的开源AI智能助手，致力于简化和优化软件开发生命周期中的各个环节.
+    weight: 1
+
+params:
+
+  author:
+    name: codefuse-ai
+    url: https://github.com/codefuse-ai
+
+  themeColors:
+    light: '#ffffff'
+    dark: '#121212'
+
+  years:
+    start: 2023
+    present: 2024
+
+  social:
+    github: 'codefuse-ai'
+    youtube: ''
+    facebook: ''
+    x: ''
+
+  ads:
+    googleAdSense: ''
+
+  donate:
+    buyMeACoffee: ''
+    githubSponsor: ''
+
+  algolia:
+    en:
+      container: '#site-header-search'
+      appId: ''
+      indexName: ''
+      apiKey: ''
+
+  home:
+
+    # repository: 'codefuse-ai/codefuse-chatbot'
+
+    repositories:
+
+      - name: ChatBot
+        repo: codefuse-ai/codefuse-chatbot
+        icon: "<i class='icon icon-book'></i>"
+        description: The repository of the project
+
+      - name: Eval
+        repo: codefuse-ai/codefuse-devops-eval
+        icon: "<i class='icon icon-book'></i>"
+        description: The repository of the website
+
+      - name: Model
+        repo: codefuse-ai/CodeFuse-DevOps-Model
+        icon: "<i class='icon icon-book'></i>"
+        description: The repository of the project
+
+menu:
+  main:
+
+    - url: /
+      name: Home
+      identifier: home
+      pre: "<i class='icon icon-home'></i>"
+      weight: 1
+
+    - url: /docs
+      name: Documentation
+      identifier: docs
+      pre: "<i class='icon icon-book'></i>"
+      weight: 2
+
+  docs:
+    - identifier: "section-one"
+      name: "Section One"
+      url: "/docs/section-one/"
+      parent: "docs"
+      weight: 10
+    - identifier: "page-one"
+      name: "Page One"
+      url: "/docs/section-one/page-one/"
+      parent: "section-one"
+      weight: 10
